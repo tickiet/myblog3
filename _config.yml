@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 南境
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: tickit
 language: en
 timezone: ''
 
@@ -45,12 +45,11 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
+  hljs: true
   enable: true
-  line_number: true
-  auto_detect: false
+  line_number: false
+  auto_detect: true
   tab_replace: ''
-  wrap: true
-  hljs: false
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -93,7 +92,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: paper
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
